@@ -1,0 +1,30 @@
+/* Ajouter une bordure autour des images */
+	img {
+			border: 2px solid black;
+			padding: 10px;
+			margin: 10px;
+			transition: all 0.3s ease-in-out;
+		}
+
+/* Ajouter une transition sur le survol des images */
+		img:hover {
+			transform: scale(1.1);
+			border-color: red;
+		}
+
+        img {
+            width: 250px;
+          }
+          
+	h1{
+            text-align: center;
+            size: 0cap;
+            color: dimgray;
+    }
+    h2{
+        text-align: center;
+        color: black;
+    }
+    body{
+       fon color: black;
+    }
